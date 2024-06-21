@@ -34,12 +34,12 @@ app.delete("/api/products", productController.deleteAllProducts);
 
 
 
-// module.exports = router;
+
 
 // Default route
-// app.use("/",(req,res)=>{
-//     res.json({message: "This is home page"})
-// });
+ app.use("/",(req,res)=>{
+     res.json({message: "This is home page"})
+ });
 
 
 // Start server
